@@ -1,0 +1,13 @@
+{
+  "name": "desktop-cyber-cat",
+  "version": "0.1.0",
+  "description": "A tiny desktop cyber pet cat starter built with Electron.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "preview": "open src/index.html"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7"
+  }
+}

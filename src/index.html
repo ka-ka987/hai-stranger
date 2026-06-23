@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Cat</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main id="stage" aria-label="桌面小猫区域">
+      <button id="cat" class="cat" aria-label="桌面小猫">
+        <img class="cat-photo" src="./assets/cat-real.png" alt="" draggable="false" />
+        <span class="paw" aria-hidden="true"></span>
+        <span class="zzz" aria-hidden="true">Zzz</span>
+      </button>
+
+      <nav id="menu" class="menu" hidden>
+        <button id="feedButton">喂食</button>
+        <button id="lickButton">舔爪子</button>
+        <button id="stretchButton">伸懒腰</button>
+        <button id="sleepButton">睡觉</button>
+        <button class="sizeButton" data-size="small">小号</button>
+        <button class="sizeButton" data-size="medium">中号</button>
+        <button class="sizeButton" data-size="large">大号</button>
+        <button class="sizeButton" data-size="xlarge">超大</button>
+        <button id="quitButton">退出</button>
+      </nav>
+    </main>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
